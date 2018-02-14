@@ -1,0 +1,8 @@
+<!-- buttons need bootstrap -->	
+
+<!-- create the zip file and make the button to download it appear. I wanted to get this to happen
+in one click but I couldn't -->
+  <button type="button" class="btn btn-default btn-lg" ng-click="create_zip()" title="Create a zip file.">Create Zip</button>
+	
+  <!-- download the zip archive -->
+  <a type="button" class="btn btn-default btn-lg" ng-show="downloadZip" ng-href="../{{variablefolder}}/archive.zip"  title="Save the application.">Download Zip</a>
